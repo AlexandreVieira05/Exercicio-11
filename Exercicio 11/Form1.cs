@@ -1,4 +1,6 @@
 using Microsoft.VisualBasic;
+using System.Drawing.Configuration;
+using System.Drawing.Design;
 
 namespace Exercicio_11
 {
@@ -21,7 +23,7 @@ namespace Exercicio_11
 
         private void corETipoDeLetraToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+          
         }
 
         private void Form1_Load(object sender, EventArgs e)

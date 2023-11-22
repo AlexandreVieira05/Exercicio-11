@@ -64,6 +64,7 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Lime;
+            label1.Cursor = Cursors.SizeAll;
             label1.Font = new Font("Showcard Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.ActiveCaptionText;
             label1.Location = new Point(78, 170);
