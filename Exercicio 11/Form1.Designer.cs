@@ -32,7 +32,6 @@
             formatargToolStripMenuItem = new ToolStripMenuItem();
             corETipoDeLetraToolStripMenuItem = new ToolStripMenuItem();
             label1 = new Label();
-            button1 = new Button();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -74,21 +73,11 @@
             label1.Text = "POO em C#";
             label1.Click += label1_Click;
             // 
-            // button1
-            // 
-            button1.Location = new Point(565, 179);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 2;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button1);
             Controls.Add(label1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
@@ -107,6 +96,5 @@
         private ToolStripMenuItem formatargToolStripMenuItem;
         private ToolStripMenuItem corETipoDeLetraToolStripMenuItem;
         private Label label1;
-        private Button button1;
     }
 }
